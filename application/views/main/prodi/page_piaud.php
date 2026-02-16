@@ -53,7 +53,8 @@
 
                 <div class="body">
                     <div class="isi_visi">
-                        <h4>Visi Program Studi PIAUD</h4>
+                        <h4>PROGRAM STUDI PENDIDIKAN ISLAM ANAK USIA DINI (PIAUD)
+                        </h4>
                         <p>Unggul dalam Pengembangan Keilmuan Pendidikan Islam Bagi Peradaban di Banten Pada Tahun 2024
                         </p>
                         <h4>Misi Program Studi PIAUD</h4>
@@ -100,59 +101,59 @@
 
 
 <script>
-var buttonVisi = document.getElementById("button_visi");
-var buttonTujuan = document.getElementById("button_tujuan");
-var buttonStrategi = document.getElementById("button_strategi");
-var buttonPengelola = document.getElementById("button_pengelola");
+    var buttonVisi = document.getElementById("button_visi");
+    var buttonTujuan = document.getElementById("button_tujuan");
+    var buttonStrategi = document.getElementById("button_strategi");
+    var buttonPengelola = document.getElementById("button_pengelola");
 
 
 
-var isiVisi = document.querySelector('.isi_visi');
-var isiTujuan = document.querySelector('.isi_tujuan');
-var isiStrategi = document.querySelector('.isi_strategi');
-var isiPengelola = document.querySelector('.isi_pengelola');
+    var isiVisi = document.querySelector('.isi_visi');
+    var isiTujuan = document.querySelector('.isi_tujuan');
+    var isiStrategi = document.querySelector('.isi_strategi');
+    var isiPengelola = document.querySelector('.isi_pengelola');
 
-buttonVisi.addEventListener("click", function() {
-    this.classList.add('cek');
-    buttonTujuan.classList.remove('cek');
-    buttonStrategi.classList.remove('cek');
-    buttonPengelola.classList.remove('cek');
-    isiTujuan.style.display = "none";
-    isiStrategi.style.display = "none";
-    isiPengelola.style.display = "none";
-    isiVisi.style.display = "block";
-})
+    buttonVisi.addEventListener("click", function() {
+        this.classList.add('cek');
+        buttonTujuan.classList.remove('cek');
+        buttonStrategi.classList.remove('cek');
+        buttonPengelola.classList.remove('cek');
+        isiTujuan.style.display = "none";
+        isiStrategi.style.display = "none";
+        isiPengelola.style.display = "none";
+        isiVisi.style.display = "block";
+    })
 
-buttonTujuan.addEventListener("click", function() {
-    this.classList.add('cek');
-    buttonVisi.classList.remove('cek');
-    buttonStrategi.classList.remove('cek');
-    buttonPengelola.classList.remove('cek');
-    isiTujuan.style.display = "block";
-    isiStrategi.style.display = "none";
-    isiPengelola.style.display = "none";
-    isiVisi.style.display = "none";
-})
+    buttonTujuan.addEventListener("click", function() {
+        this.classList.add('cek');
+        buttonVisi.classList.remove('cek');
+        buttonStrategi.classList.remove('cek');
+        buttonPengelola.classList.remove('cek');
+        isiTujuan.style.display = "block";
+        isiStrategi.style.display = "none";
+        isiPengelola.style.display = "none";
+        isiVisi.style.display = "none";
+    })
 
-buttonStrategi.addEventListener("click", function() {
-    this.classList.add('cek');
-    buttonTujuan.classList.remove('cek');
-    buttonVisi.classList.remove('cek');
-    buttonPengelola.classList.remove('cek');
-    isiTujuan.style.display = "none";
-    isiStrategi.style.display = "block";
-    isiPengelola.style.display = "none";
-    isiVisi.style.display = "none";
-})
+    buttonStrategi.addEventListener("click", function() {
+        this.classList.add('cek');
+        buttonTujuan.classList.remove('cek');
+        buttonVisi.classList.remove('cek');
+        buttonPengelola.classList.remove('cek');
+        isiTujuan.style.display = "none";
+        isiStrategi.style.display = "block";
+        isiPengelola.style.display = "none";
+        isiVisi.style.display = "none";
+    })
 
-buttonPengelola.addEventListener("click", function() {
-    this.classList.add('cek');
-    buttonTujuan.classList.remove('cek');
-    buttonStrategi.classList.remove('cek');
-    buttonVisi.classList.remove('cek');
-    isiTujuan.style.display = "none";
-    isiStrategi.style.display = "none";
-    isiPengelola.style.display = "block";
-    isiVisi.style.display = "none";
-})
+    buttonPengelola.addEventListener("click", function() {
+        this.classList.add('cek');
+        buttonTujuan.classList.remove('cek');
+        buttonStrategi.classList.remove('cek');
+        buttonVisi.classList.remove('cek');
+        isiTujuan.style.display = "none";
+        isiStrategi.style.display = "none";
+        isiPengelola.style.display = "block";
+        isiVisi.style.display = "none";
+    })
 </script>

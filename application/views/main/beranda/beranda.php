@@ -168,7 +168,6 @@
 
     <div class="artikelHome">
 
-
         <a class="perArtikelHome">
             <img src="<?= base_url('assets/images/1.jpg') ?>" alt=" Foto Artikel">
             <h3>
