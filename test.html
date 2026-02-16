@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Register Template Mail</title>
+	</head>
+
+	<body>
+		<center style="width: 100%">
+			<img
+				src="https://lirp.cdn-website.com/a94dfc3e/dms3rep/multi/opt/Logo-Daikin-x-100-tahun-1920w.png"
+				width="50%"
+				alt=""
+			/>
+		</center>
+		<div style="background-color: #00a1e4; padding: 20px; color: white">
+			<h1>Selamat registrasi anda diterima</h1>
+		</div>
+		<div>
+			<p style="margin-bottom: 30px">
+				Maka berikut kami informasikan No. Peserta
+				<b>Daikin Designer Awards 2024</b> :
+			</p>
+			<p>
+				Nama :
+				<?= $nama; ?>
+			</p>
+			<p style="margin-bottom: 30px">
+				No. Peserta :
+				<?= $no_peserta; ?>
+			</p>
+			<p style="margin-bottom: 30px">
+				File Materi bisa didapatkan pada unduhan berkas di web kami.
+			</p>
+			<p><b>Note</b> :</p>
+			<ul>
+				<li>
+					<p>
+						1 akun hanya dapat digunakan untuk 1 kategori, jika Bapak/Ibu ingin
+						mendaftar lebih dari 1 kategori maka harus menggunakan email yang
+						belum teregitrasi pada website kami.
+					</p>
+				</li>
+			</ul>
+
+			<a
+				href="<?=base_url('PreRegister/VerificationAccount/''.$token)?>"
+				style="cursor: pointer"
+			>
+				<button
+					style="
+						background-color: #00a1e4;
+						border: none;
+						color: white;
+						width: 100%;
+						border-radius: 10px;
+						padding: 20px;
+						font-weight: bolder;
+					"
+				>
+					VERIFIKASI AKUN
+				</button>
+			</a>
+			<br />
+			<br />
+			<h3>Salam,</h3>
+			<h3>TIM DAIKIN INDONESIA</h3>
+		</div>
+	</body>
+</html>
