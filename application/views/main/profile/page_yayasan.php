@@ -16,8 +16,9 @@
 <div class="container">
     <div class="sejarah_isi">
         <p class="sejarah_text_header">SEJARAH DAN PROFIL RESMI</p>
-        <p>YAYASAN BINA PUTRA WIJAYA BANGSA</p>
+        <h2>YAYASAN BINA PUTRA WIJAYA BANGSA</h2>
         <hr>
+
         <div class="sejarah_text_body" style="text-align: justify;">
             <p>Yayasan Bina Putra Wijaya Bangsa merupakan lembaga berbadan hukum yang didirikan berdasarkan Akta Notaris sebagaimana tercantum dalam dokumen resmi pendirian yayasan . Berdirinya yayasan ini dilatarbelakangi oleh semangat pengabdian para pendiri dalam memberikan kontribusi nyata bagi kemajuan pendidikan, pembangunan sosial, serta peningkatan kualitas sumber daya manusia di Indonesia.</p>
             <p>Sebagai badan hukum yang sah, Yayasan Bina Putra Wijaya Bangsa didirikan dengan berpedoman pada ketentuan peraturan perundang-undangan yang berlaku tentang yayasan. Dalam Anggaran Dasarnya diatur secara jelas mengenai nama dan kedudukan yayasan, maksud dan tujuan, kegiatan yang dijalankan, struktur organisasi, serta ketentuan pengelolaan kekayaan yayasan . Landasan hukum ini menjadi pijakan utama dalam menjalankan roda organisasi secara tertib, profesional, dan akuntabel.</p>

@@ -62,9 +62,6 @@
             </div>
         </section>
     </li>
-
-
-
 </ul>
 
 
@@ -102,9 +99,8 @@
     <div class="container">
         <div class="col-sm-4  col-md-4 col-lg-4 col-kepsek">
             <div class="kotak">
-                <img src="<?= base_url('assets/images/darimun.jpeg') ?>" alt="kepala SMK N 2 Purbalingga">
+                <img src="<?= base_url('assets/images/darimun.jpeg') ?>" alt="kepala yayasan">
             </div>
-
         </div>
         <div class="col-sm-8 col-md-8 col-lg-8">
             <div class="isi-kepsek">

@@ -1,242 +1,76 @@
-<div class="footer">
-
+<footer class="site-footer">
     <div class="container">
         <div class="row">
-            <div class="col-3">
-                <img class="img-logo" src="<?= base_url('assets/images/Logo-otista.png') ?>"
-                    alt="Logo SMK N 2 Purbalingga">
+            <div class="col-lg-5 col-12 footer-contact-info mb-4">
+                <div class="footer-brand-wrapper d-flex align-items-center mb-3">
+                    <img src="<?= base_url('assets/images/Logo-otista.png') ?>" alt="Logo STIT Otista" class="footer-logo">
+                    <div class="brand-text ml-3">
+                        <span class="college-name-sub">Sekolah Tinggi Ilmu Tarbiyah (STIT)</span>
+                        <h4 class="college-name-main">OTTO ISKANDARDINATA BANTEN</h4>
+                    </div>
+                </div>
+                <p class="footer-description mb-4">
+                    Mencetak generasi pendidik yang unggul, profesional, dan berintegritas tinggi berdasarkan nilai-nilai keislaman.
+                </p>
+                <div class="contact-details">
+                    <div class="d-flex mb-3">
+                        <i class="fas fa-map-marker-alt footer-icon"></i>
+                        <span> &nbsp;Jl. Raya Puspitek-Serpong Gg. Salem III, Serpong, Kota Tangerang Selatan</span>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <i class="fas fa-envelope footer-icon"></i>
+                        <span> &nbsp;otistabanten@gmail.com</span>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fas fa-phone-alt footer-icon"></i>
+                        <span> &nbsp;0812-8209-7569</span>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <h5 class="footer-title">Tautan Cepat</h5>
+                <ul class="footer-links">
+                    <li><a href="<?= base_url('sejarah-yayasan') ?>">Sejarah Yayasan</a></li>
+                    <li><a href="<?= base_url('visi-misi') ?>">Visi & Misi</a></li>
+                    <li><a href="<?= base_url('struktur-manajemen') ?>">Struktur Manajemen</a></li>
+                    <li><a href="<?= base_url('news') ?>">Berita Terbaru</a></li>
+                    <li><a href="<?= base_url('galeri') ?>">Galeri Foto & Video</a></li>
+                </ul>
             </div>
-            <div class="col-9">
-                <p class="footer_about"><span class="sekolah">Sekolah Tinggi Ilmu Tarbiyah (STIT)</span><br>OTTO
-                    ISKANDAR
-                    DINANTA
-                    BANTEN</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 ">
-                <span><i class='fas fa-envelope icon'></i></span>
-            </div>
-            <div class="col-9">
-                <p class="footer_icon utama"><span class="sekolah">otistabanten@gmail.com</span></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 ">
-                <span><i class='fas fa-phone-alt icon'></i></span>
-            </div>
-            <div class="col-9">
-                <p class="footer_icon"><span class="sekolah">081282097569</span></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 ">
-                <span><i class='fas fa-map-pin icon'></i></span>
-            </div>
-            <div class="col-9">
-                <a href="https://www.google.com/maps/dir//Jl.+Salem+III+No.1,+Serpong,+Kec.+Serpong,+Kota+Tangerang+Selatan,+Banten+15310/@-6.3241377,106.5878595,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e69e4ddfd66aad5:0x41452f13dc5bad2c!2m2!1d106.6702442!2d-6.3241398?entry=ttu"
-                    target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                    <p class="footer_icon ketiga"><span class="sekolah">Jl. Raya Puspitek-Serpong Gg. Salem III
-                            Rt.002
-                            Rw.007
-                            Serpong Kota Tangerang</span></p>
-                </a>
-            </div>
-        </div>
-        <div class="icon_media_sosial">
-            <div class="row">
-                <div class="col-2 ">
-                    <a href="" class="icon-footer wat">
+
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <h5 class="footer-title">Program Studi</h5>
+                <ul class="footer-links mb-4">
+                    <li><a href="<?= base_url('pendidikan-anak-usia-dini') ?>">Pendidikan Islam Anak Usia Dini (PIAUD)</a></li>
+                    <li><a href="<?= base_url('pendidikan-agama-islam') ?>">Pendidikan Agama Islam (PAI)</a></li>
+                </ul>
+
+                <h5 class="footer-title">Media Sosial</h5>
+                <div class="footer-social-icons">
+                    <a href="#" class="social-btn wa"
+                        onclick="redirectToWhatsApp('6281282097569', 'Halo, saya ingin bertanya seputar STIT Otista Banten?')"
+                        target="_blank" class="icon-footer wat">
                         <i class="fab fa-whatsapp"></i>
                     </a>
-                </div>
-                <div class="col-2">
-                    <a href="" class="icon-footer fbk">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a href="" class="icon-footer isg">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a href="" class="icon-footer ytb">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a href="" class="icon-footer linkind">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
+                    <a href="https://www.facebook.com/stitotistabanten" class="social-btn fb"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/stitotistabanten" class="social-btn ig"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@stitotista" class="social-btn yt"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                <div class="footer-beranda">
-                    <h3>Beranda</h3>
-                    <div class="link">
-                        <a href="">Sejarah</a>
-                        <a href="">Visi & Misi</a>
-                        <a href="">Struktur Manajement</a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="footer-beranda">
-                    <h3>Program Studi</h3>
-                    <div class="link">
-                        <a href="">Pendidikan Islam Anak Usia Dini</a>
-                        <a href="">Pendidikan Agama Islam</a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="footer-beranda akhir">
-                    <h3>Galeri</h3>
-                    <div class="link">
-                        <a href="">Foto</a>
-                        <a href="">Video</a>
-                    </div>
-
-                </div>
-            </div>
-
         </div>
     </div>
-</div>
-<div class="footer-laptop">
-    <div class="container">
-        <div class="row">
 
-            <div class="col-lg-4">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <img class="img-logo" src="<?= base_url('assets/images/Logo-otista.png') ?>"
-                            alt="Logo SMK N 2 Purbalingga">
-                    </div>
-                    <div class="col-lg-9">
-                        <p class="footer_about"><span class="sekolah">Sekolah Tinggi Ilmu Tarbiyah
-                                (STIT)</span><br>OTTO
-                            ISKANDAR
-                            DINANTA
-                            BANTEN</p>
-                    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">&copy; 2026 <strong>STIT OTTO ISKANDARDINATA BANTEN</strong>. All Rights Reserved.</p>
                 </div>
-                <div class="row">
-                    <div class="col-3 ">
-                        <span><i class='fas fa-envelope icon'></i></span>
-                    </div>
-                    <div class="col-9">
-                        <p class="footer_icon utama"><span class="sekolah">irfanhasanuddin@otistabanten.ac.id</span></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-3 ">
-                        <span><i class='fas fa-phone-alt icon'></i></span>
-                    </div>
-                    <div class="col-9">
-                        <p class="footer_icon kedua"><span class="sekolah">0812 8209 7569</span></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-3 ">
-                        <span><i class='fas fa-map-pin icon'></i></span>
-                    </div>
-                    <div class="col-9">
-                        <a href="https://www.google.com/maps/dir//Jl.+Salem+III+No.1,+Serpong,+Kec.+Serpong,+Kota+Tangerang+Selatan,+Banten+15310/@-6.3241377,106.5878595,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e69e4ddfd66aad5:0x41452f13dc5bad2c!2m2!1d106.6702442!2d-6.3241398?entry=ttu"
-                            target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                            <p class="footer_icon ketiga"><span class="sekolah">Jl. Raya Puspitek-Serpong Gg. Salem III
-                                    Rt.002
-                                    Rw.007
-                                    Serpong Kota Tangerang</span></p>
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="footer-beranda footer-beranda-1">
-                    <h3>Beranda</h3>
-                    <div class="link">
-                        <a href="">Sejarah</a>
-                        <a href="">Visi & Misi</a>
-                        <a href="">Struktur Manajement</a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="footer-beranda footer-beranda-2">
-                    <h3>Program Studi</h3>
-                    <div class="link">
-                        <a href="">Pendidikan Islam Anak Usia Dini</a>
-                        <a href="">Pendidikan Agama Islam</a>
-                    </div>
-
-                    <div class="icon_media_sosial mt-4">
-
-                        <div class="row">
-                            <div class="col-lg-2 ">
-                                <a href="#"
-                                    onclick="redirectToWhatsApp('6281282097569', 'Halo, saya ingin bertanya seputar STIT Otista Banten?')"
-                                    target="_blank" class="icon-footer wat">
-                                    <i class="fab fa-whatsapp"></i>
-                                </a>
-                            </div>
-                            <div class="col-lg-2">
-                                <a target="_blank" href="https://www.facebook.com/stitotistabanten/?locale=id_ID"
-                                    class="icon-footer fbk">
-                                    <i class="fab fa-facebook"></i>
-                                </a>
-                            </div>
-                            <div class="col-lg-2">
-                                <a target="_blank" href="https://www.instagram.com/stitotistabanten"
-                                    class="icon-footer isg">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </div>
-                            <div class="col-lg-2">
-                                <a target="_blank" href="https://www.youtube.com/channel/UCmuc2NzZlNg8HtEX1rqjCQg"
-                                    class="icon-footer ytb">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </div>
-                            <!-- <div class="col-lg-2">
-                                <a target="_blank" href="" class="icon-footer linkind">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
-
-
-
     </div>
-</div>
-</div>
-
-<div class="footerCopyright" align="center">
-    <span><i class="fas fa-copyright"></i> Otista Banten 2024</span>
-</div>
-
-
-
+</footer>
 
 <script src="<?= base_url('assets/js/script.js') ?>"></script>
 

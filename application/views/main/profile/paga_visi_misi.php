@@ -13,21 +13,19 @@
 
 <div class="motto">
     <div class="container">
-        <div class="row">
-            <div class="col-5">
+        <div class="row align-items-center">
+            <div class="col-md-5">
                 <div class="kotak">
-                    <img src="<?= base_url('assets/images/motto.jpeg') ?>" alt="">
+                    <img src="<?= base_url('assets/images/motto.jpeg') ?>" alt="Motto STIT Otista">
                 </div>
             </div>
-            <div class="col-7 centered-text">
-                <div class="centered-text">
+            <div class="col-md-7 mt-4 mt-md-0">
+                <div class="centered-text pl-md-5">
                     <h5>motto</h5>
-                    <br>
-                    <p><i class="fas fa-check-double"></i>Unggul</p>
-                    <p><i class="fas fa-check-double"></i>Profesional</p>
-                    <p><i class="fas fa-check-double"></i>Universal</p>
+                    <p><i class="fas fa-check-double"></i>&nbsp; Unggul</p>
+                    <p><i class="fas fa-check-double"></i>&nbsp; Profesional</p>
+                    <p><i class="fas fa-check-double"></i>&nbsp; Universal</p>
                 </div>
-
             </div>
         </div>
     </div>
