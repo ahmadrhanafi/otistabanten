@@ -13,18 +13,26 @@
                     Mencetak generasi pendidik yang unggul, profesional, dan berintegritas tinggi berdasarkan nilai-nilai keislaman.
                 </p>
                 <div class="contact-details">
-                    <div class="d-flex mb-3">
-                        <i class="fas fa-map-marker-alt footer-icon"></i>
-                        <span> &nbsp;Jl. Raya Puspitek-Serpong Gg. Salem III, Serpong, Kota Tangerang Selatan</span>
-                    </div>
-                    <div class="d-flex mb-3">
-                        <i class="fas fa-envelope footer-icon"></i>
-                        <span> &nbsp;otistabanten@gmail.com</span>
-                    </div>
-                    <div class="d-flex">
-                        <i class="fas fa-phone-alt footer-icon"></i>
-                        <span> &nbsp;0812-8209-7569</span>
-                    </div>
+                    <a href="https://www.google.com/maps/search/?api=1&query=STIT+Otista+Serpong" target="_blank" class="d-flex mb-3 text-decoration-none text-white">
+                        <div class="d-flex">
+                            <i class="fas fa-map-marker-alt footer-icon" style="width: 20px; height: 20px;"></i>
+                            <span> &nbsp;Jl. Raya Puspitek-Serpong Gg. Salem III, Serpong, Kota Tangerang Selatan</span>
+                        </div>
+                    </a>
+
+                    <a href="mailto:otistabanten@gmail.com" class="d-flex mb-3 text-decoration-none text-white">
+                        <div class="d-flex">
+                            <i class="fas fa-envelope footer-icon"></i>
+                            <span> &nbsp;otistabanten@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/6281282097569" target="_blank" class="d-flex text-decoration-none text-white">
+                        <div class="d-flex">
+                            <i class="fas fa-phone-alt footer-icon"></i>
+                            <span> &nbsp;0812-8209-7569</span>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -73,6 +81,10 @@
 </footer>
 
 <script src="<?= base_url('assets/js/script.js') ?>"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 
 <script>
     function redirectToWhatsApp(phoneNumber, message) {

@@ -170,7 +170,7 @@ body {
 /* Slideshow Styling */
 .slideshow {
     position: relative;
-    height: 85vh; /* Tinggi hampir semenu layar */
+    height: 80vh; /* Tinggi hampir semenu layar */
     overflow: hidden;
     background-color: #000;
 }
@@ -178,40 +178,57 @@ body {
 .slideshow img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Gambar tidak penyet */
-    opacity: 0.7;
+    object-fit: cover;
+    display: block;
+    opacity: 0.8; 
+}
+
+.slideshow .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
 }
 
 .slideshow .container {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: var(--white);
-    width: 90%;
+    bottom: 80px;
+    left: 40px;
     z-index: 2;
 }
 
-.slideshow .mainText h3 {
-    font-size: 1.2rem;
-    color: var(--accent-orange);
+.slideshow .container .mainText {
+	position: relative;
+}
+
+.slideshow .container .mainText .garis {
+	position: absolute;
+	width: 7px;
+	height: 80px;
+	border-radius: 10px;
+	background-color: #ffa51c;
+}
+
+.slideshow .container .mainText h3 {
+	font-size: 1.5rem;
+	margin-left: 30px;
+	color: #fff;
+}
+
+.slideshow .container .mainText h1 {
+    margin: 10px 0 10px 30px;
+    font-weight: 650;
+    line-height: 1.2;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
+    color: #fff;
 }
 
-.slideshow .mainText h1 {
-    font-size: 4rem;
-    font-weight: 800;
-    margin-bottom: 20px;
-    line-height: 1.1;
-}
-
-.slideshow .container > h3 {
-    font-weight: 300;
-    font-style: italic;
-    opacity: 0.9;
+.slideshow .container h3 {
+	color: #fff;
+	font-size: 1.1rem;
 }
 
 /* ========================================
@@ -398,22 +415,32 @@ body {
 }
 
 .banner-pendaftaran .text-header {
+    font-size: 1.8rem;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.banner-pendaftaran .text-daftar {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 0;
 }
 
 .banner-pendaftaran .btn-daftar {
     background-color: var(--accent-orange);
-    color: white;
+    color: #fff;
     padding: 12px 30px;
-    font-weight: 600;
+    font-weight: bold;
     border-radius: 50px;
-    transition: var(--transition-smooth);
+    transition: 0.3s;
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 .banner-pendaftaran .btn-daftar:hover {
+    background-color: #e69516;
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    color: #fff;
 }
 
 /* ========================================
@@ -447,6 +474,59 @@ body {
     font-weight: 500;
 }
 
+/* Style untuk Detail Berita */
+    .news-detail-container {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background-color: #fff;
+    }
+    .news-header {
+        margin-bottom: 30px;
+    }
+    .news-title {
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: #333;
+        line-height: 1.2;
+    }
+    .news-meta {
+        color: #777;
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+    .news-meta span {
+        margin-right: 15px;
+    }
+    .news-featured-img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .news-content {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #444;
+        text-align: justify;
+    }
+    .sidebar-card {
+        border: none;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        margin-bottom: 20px;
+    }
+    .btn-back {
+        margin-bottom: 20px;
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        color: #555;
+    }
+    .btn-back:hover {
+        color: #000;
+    }
+
 /* ========================================
 12. BANNER SEJARAH (HERO IMAGE)
 ========================================
@@ -457,14 +537,20 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 0 60px 0;
+    padding: 100px 0 40px 0;
     color: white;
     margin-bottom: 50px;
 }
 
+.banner-sejarah-yayasan .container .row {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+}
+
 .banner-sejarah-yayasan .text-header {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 350;
     margin-bottom: 10px;
     font-family: 'Viga', sans-serif;
 }
@@ -474,7 +560,7 @@ body {
     height: 4px;
     background-color: var(--accent-orange);
     border: none;
-    margin: 15px 0;
+    margin-left: 0 !important;
 }
 
 .banner-sejarah-yayasan .text-daftar {
@@ -718,7 +804,6 @@ body {
 .kepsek .kotak {
     width: 100%;
     max-width: 320px;
-    margin-top: -320px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: var(--shadow-standard);
@@ -891,7 +976,7 @@ body {
 .jurusan .container h2:after {
     content: '';
     display: block;
-    width: 60px;
+    width: 90px;
     height: 4px;
     background: var(--accent-orange);
     margin: 10px auto;
@@ -907,7 +992,7 @@ body {
 }
 
 .perBox {
-    width: 350px;
+    width: 460px;
     background: white;
     border-radius: 15px;
     overflow: hidden;
@@ -1065,9 +1150,12 @@ body {
 }
 
 .footer-icon {
+    background-color: var(--accent-orange);
+    border-radius: 50%;
+    padding: 5px;
     width: 35px;
-    color: var(--accent-orange);
-    font-size: 1.1rem;
+    color: var(--dark-bg);
+    font-size: 1.2rem;
     margin-top: 5px;
 }
 
@@ -1454,6 +1542,21 @@ body {
         margin-top: 20px;
     }
 
+    .banner-pendaftaran .text-header {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .banner-pendaftaran .text-daftar {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .banner-pendaftaran .btn-daftar {
+        width: 100%;
+        max-width: 300px;
+    }
+
     .perBox {
         width: 100%;
     }
@@ -1469,7 +1572,7 @@ body {
     }
     
     .banner-sejarah-yayasan .garis {
-        margin: 15px auto; /* Garis jadi ke tengah */
+        margin: 15px auto;
     }
 
     .sejarah_isi h2 {

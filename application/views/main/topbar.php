@@ -19,32 +19,43 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mr-auto ml-auto">
+
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="profilDrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         Profil Otista
                     </a>
-                    <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="profilDrop">
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
                         <a class="dropdown-item" href="<?= base_url('sejarah-yayasan') ?>">Sejarah Yayasan</a>
                         <a class="dropdown-item" href="<?= base_url('visi-misi') ?>">Visi & Misi</a>
-                        <a class="dropdown-item" href="<?= base_url('struktur-manajemen') ?>">Struktur Manajemen</a>
+                        <a class="dropdown-item" href="<?= base_url('struktur-manajemen') ?>">
+                            Struktur Manajemen
+                        </a>
                     </div>
                 </li>
+
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="profilDrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         Program Studi
                     </a>
-                    <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="profilDrop">
-                        <a class="dropdown-item" href="<?= base_url('pendidikan-agama-islam') ?>">PAI</a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
                         <a class="dropdown-item" href="<?= base_url('pendidikan-anak-usia-dini') ?>">PIAUD</a>
+                        <a class="dropdown-item" href="<?= base_url('pendidikan-agama-islam') ?>">PAI</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="profilDrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         Dosen & Staff
                     </a>
-                    <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="profilDrop">
-                        <a class="dropdown-item" href="<?= base_url('dosen-program-studi') ?>">Dosen</a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                        <a class="dropdown-item" href="<?= base_url('dosen-program-studi') ?>">Dosen Program Studi
+                        </a>
                         <a class="dropdown-item" href="<?= base_url('staff-otista') ?>">Staff</a>
                     </div>
                 </li>
