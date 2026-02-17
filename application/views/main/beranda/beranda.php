@@ -148,7 +148,6 @@
         <h2>Program Studi Pilihan</h2>
 
         <div class="boxJurusan">
-
             <div class="perBox">
                 <img src="<?= base_url('assets/images/prodi-PIAUD.jpg') ?>" alt=" RPL">
                 <h3>Pendidikan Islam Anak Usia Dini</h3>

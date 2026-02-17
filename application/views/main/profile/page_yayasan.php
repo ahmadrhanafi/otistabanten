@@ -27,3 +27,4 @@
             <p>Ke depan, Yayasan Bina Putra Wijaya Bangsa bertekad untuk terus berkembang sebagai lembaga pendidikan dan sosial yang adaptif terhadap perubahan zaman, responsif terhadap kebutuhan masyarakat, serta konsisten menjaga amanah pendirinya sebagaimana tertuang dalam akta pendirian . Dengan fondasi hukum yang kuat dan komitmen yang jelas, yayasan optimis dapat menjadi bagian dari solusi dalam mencerdaskan kehidupan bangsa dan membangun generasi unggul yang berkarakter.</p>
         </div>
     </div>
+</div>
