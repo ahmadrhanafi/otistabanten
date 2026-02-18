@@ -73,7 +73,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12 text-center">
-                    <p class="mb-0">&copy; 2026 <strong>STIT OTTO ISKANDARDINATA BANTEN</strong>. All Rights Reserved.</p>
+                    <p class="mb-0">&copy; 2026 <strong>STIT OTTO ISKANDARDINATA BANTEN</strong>.</p>
                 </div>
             </div>
         </div>
